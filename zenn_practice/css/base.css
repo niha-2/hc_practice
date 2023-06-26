@@ -1,0 +1,1257 @@
+@charset "UTF-8";
+
+/* iphone用の設定 */
+body {
+  width: 100%;
+}
+
+.container {
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+}
+
+.container p {
+  font-size: 16px;
+}
+
+.radius {
+  border-radius: none;
+}
+
+.radius_40 {
+  border-radius: 40px;
+}
+
+.background-color_transparent {
+  background-color: #EDF2F7;
+}
+
+.btn_follow {
+  width: 82px;
+  height: 30px;
+  background-color: #FFFFFF;
+  border: 1px solid #6E7B85;
+  border-radius: 20px;
+  font-size: 12.5px;
+  text-align: center;
+  margin-right: 8px;
+}
+
+.like_btn {
+  background-color: #FFFFFF;
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top_like_btn {
+  background-color: #EDF2F7;
+  height: 38px;
+  width: 38px;
+  border: none;
+  border-radius: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top_like_btn img {
+  display: block;
+  height: 26px;
+  width: 26px;
+}
+
+.toc_btn {
+  background-color: inherit;
+  font-size: 14.5px;
+  color: #65717B;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.toc_btn img {
+  margin-left: 3px;
+}
+
+.font_size_14 {
+  font-size: 14px;
+}
+
+.font_size_12_5 {
+  font-size: 12.5px;
+}
+
+/* header */
+header {
+  width: 100%;
+  height: 62px;
+}
+
+.header_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 62px;
+  width: 94px;
+}
+
+.zenn_public_logo_top {
+  height: 22px;
+  width: 94px;
+  margin-top: 20px;
+}
+
+header nav {
+  width: 125px;
+  height: 62px;
+}
+
+nav .header {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login {
+  width: 80px;
+  height: 36px;
+  font-size: 15px;
+}
+
+/* contents */
+main {
+  background-color: #EDF2F7;
+  width: 100%;
+  height: 4534px;
+  padding-bottom: 64px;
+}
+
+.article_top {
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 56px;
+  padding: 0 20px;
+  margin: 0 auto;
+  display: flex;
+  border-top: 1px solid #E4EDF4;
+}
+
+.article_top span {
+  font-size: 14px;
+}
+
+.article_top a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.article_top span {
+  color: #000000d1;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.article_top_right {
+  height: 100%;
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.article_top_toc {
+  width: 80px;
+  height: 22px;
+  display: flex;
+}
+
+.top_zenn_logo_container {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.top_zenn_logo {
+  height: 38px;
+  width: 38px;
+  display: block;
+  margin-right: 10px;
+}
+
+.article_header_container {
+  height: 277px;
+  margin: 0 auto;
+  padding: 55px 0 52px 0;
+}
+
+.article_header {
+  height: 144px;
+  text-align: center;
+}
+
+.article_header_logo {
+  display: block;
+  margin: 0 auto;
+  height: 75px;
+  width: 75px;
+}
+
+.article_header h1 {
+  margin-top: 19.2px;
+  font-size: 23px;
+}
+
+/* article_main */
+.main_article_container {
+  width: 100%;
+}
+
+.article_sub_container {
+  display: none;
+}
+
+.article_share_container {
+  display: inline
+}
+
+.tweet_share {
+  height: 45px;
+  width: 50px;
+  text-decoration: none;
+}
+
+.article_info {
+  text-align: center;
+  color: #65717B;
+}
+
+.article_contents_container {
+  display: grid;
+  width: 100%;
+}
+
+/* article_sub_container */
+.article_share_container {
+  width: 50px;
+  height: 128px;
+  text-align: center;
+}
+
+.article_share_container span {
+  color: #6E7B85;
+}
+
+.article_sub_container_space {
+  height: 10px;
+  width: 1px;
+}
+
+.like_btn_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.like_btn_container button {
+  border: none;
+  border-radius: 40px;
+  width: 50px;
+  height: 50px;
+}
+
+.like_btn_container img {
+  margin: 0 auto;
+}
+
+.like_btn_container span {
+  margin-left: 8px;
+}
+
+.like_btn_container_sub span {
+  font-size: 12px;
+}
+
+.tweet_share img {
+  margin: 0 auto;
+}
+
+.tweet_share span {
+  font-size: 12px;
+  height: 22px;
+}
+
+/* article_text_contents */
+.article_text_container {
+  width: 100%;
+  height: 2873px;
+}
+
+.article_text_main_container {
+  width: 100%;
+  background-color: #FFFFFF;
+  padding: 40px 40px;
+}
+
+.article_text_main_container a {
+  text-decoration: none;
+  color: #1483FD;
+}
+
+.github_edit {
+  width: 186px;
+  height: 36px;
+  display: flex;
+  border: 1px solid #d6e3ed;
+  border-radius: 5px;
+  padding: 7.2px 14.4px;
+  margin-top: 30px;
+}
+
+.github_edit span {
+  color: #000000d1;
+}
+
+
+/* article_topic_container */
+.article_topic_container {
+  display: flex;
+  padding-bottom: 13px;
+}
+
+.topic_container {
+  display: flex;
+  width: 77px;
+  height: 32px;
+  border: 1px solid #d6e3ed;
+  padding: 2px;
+  margin: 0 8px 8px 0;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 20px;
+}
+
+.topic_container div {
+  color: #000000d1;
+}
+
+.topic_name {
+  text-align: center;
+  margin: auto auto;
+}
+
+img.topic_image {
+  height: 26px;
+  width: 26px;
+}
+
+.article_body {
+  height: 80%;
+  width: 100%;
+}
+
+.article_body p {
+  display: block;
+  line-height: 1.9;
+  color: #000000d1;
+}
+
+.article_body div p {
+  height: 45px;
+  width: 100%;
+  border: 1px solid #5c93bb2b;
+  border-radius: 8px;
+  padding: 5.6px;
+}
+
+.article_body h1 {
+  font-size: 1.7em;
+  padding-bottom: 6px;
+  margin: 63px 0 18px 0;
+  height: 48px;
+  border-bottom: 1px solid #5c93bb2b;
+}
+
+.article_body h2 {
+  font-size: 1.4em;
+  padding-bottom: 7.2px;
+  margin: 55px 0 18px 0;
+  height: 48px;
+  border-bottom: 1px solid #5c93bb2b;
+}
+
+.article_img_1 {
+  display: table;
+  height: auto;
+  max-width: 100%;
+  margin: 1.5rem auto;
+}
+
+.article_img_2 {
+  display: table;
+  height: auto;
+  max-width: 100%;
+  margin: 1.5rem auto;
+}
+
+.h1_p {
+  margin-top: 4.8px;
+}
+
+.h2_p {
+  margin-top: 24px;
+}
+
+.link_p {
+  margin-top: 24px;
+}
+
+.article_body hr {
+  margin: 40px 0;
+  border-top: 2px solid #5c93bb2b;
+}
+
+.article_body_space {
+  width: 1px;
+  display: block;
+  height: 23px;
+}
+
+.article_text_main_container hr {
+  border-top: #5c93bb2b;
+}
+
+.like_btn_container {
+  display: flex;
+  margin-right: auto;
+}
+
+.like_image {
+  height: 30px;
+  width: 30px;
+}
+
+.view_menu {
+  display: inline;
+}
+
+.tweet_share_btn {
+  height: 43px;
+  width: 118px;
+  display: flex;
+  border: 1px solid #d6e3ed;
+  padding: 8.8px 16px 8.8px 14.4px;
+  margin-left: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.twitter3 {
+  height: 23px;
+  width: 23px;
+  margin-right: 4.8px;
+}
+
+.article_share_bottom_container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+
+.article_share_bottom_container a {
+  text-decoration: none;
+  color: #92A5B1
+}
+
+.article_share_bottom_container_space {
+  height: 10px;
+  width: 1px;
+}
+
+.acount_info_bottom_container {
+  display: flex;
+  height: 136px;
+  padding-top: 32px;
+}
+
+.acount_info_bottom_text {
+  width: calc(100% - 40px);
+}
+
+.acount_icon_container,
+.acount_profile_container {
+  padding-left: 40px;
+}
+
+.acount_icon_container {
+  height: 22px;
+}
+
+.acount_icon_container a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.acount_icon_container span {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.acount_profile_container p {
+  color: #6E7B85;
+}
+
+.zenn_acount_logo {
+  display: inline;
+  height: 60px;
+  width: 60px;
+}
+
+/* discussion */
+.discussion_container {
+  background-color: #FFFFFF;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 310px 116px;
+  height: 426px;
+  width: 100%;
+  grid-column: 1;
+  grid-row: 2;
+  border-top: solid 1px #E4EDF4;
+}
+
+.discuss {
+  height: 303px;
+  text-align: center;
+  padding: 33.6px 0;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.discuss_login_container {
+  height: 117px;
+  padding: 16px 8px 24px;
+  grid-column: 1;
+  grid-row: 2;
+  text-align: center;
+  border-top: solid 1px #E4EDF4;
+}
+
+.discuss_login_container span {
+  color: #93A5B1;
+  display: block;
+  margin: 0 auto;
+}
+
+.discuss h3 {
+  font-size: 27.2px;
+  text-align: center;
+}
+
+.discussion {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.login_button {
+  text-align: center;
+  margin-top: 11px;
+  display: block;
+}
+
+.btn_login {
+  height: 32px;
+  width: 68px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  background-color: #3DA8FF;
+}
+
+/* article_sidebar_contents */
+.article_sidebar_contents_container {
+  display: none;
+}
+
+.border-top {
+  border-top: 1px solid #d6e3ed;
+}
+
+.article_info_list {
+  background-color: #FFFFFF;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.article_info_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 46px;
+  width: 260px;
+}
+
+.article_info_item_list {
+  padding: 4px 20px;
+}
+
+.article_info_item_label {
+  display: flex;
+}
+
+.article_info_item_icon {
+  margin-right: 2px;
+}
+
+.article_info_item_text {
+  color: #6E7B85;
+}
+
+.article_info_item_content {
+  color: #000000d1;
+}
+
+.zenn_public {
+  display: flex;
+  color: inherit;
+  text-decoration: none;
+}
+
+.zenn_logo_public_author {
+  height: 22px;
+  width: 22px;
+  border-radius: 100px;
+  margin-right: 5px;
+}
+
+.zenn_acount_logo_side {
+  border-radius: 100px;
+}
+
+.zenn_acount_logo {
+  border-radius: 100px;
+}
+
+.reload_date {
+  display: flex;
+}
+
+.article_acount_info {
+  background-color: #FFFFFF;
+  grid-column: 1;
+  grid-row: 2;
+  padding: 20px;
+}
+
+.article_acount_info p {
+  font-size: 14.4px;
+  color: #000000d1;
+  line-height: 1.7;
+  margin-top: 10px;
+}
+
+.article_acount_info_main {
+  display: flex;
+  height: 63px;
+  width: 260px;
+}
+
+.acount_info_logo {
+  display: block;
+}
+
+.zenn_acount_logo_side {
+  height: 60px;
+  width: 60px;
+}
+
+.acount_profile_container {
+  margin-top: 7px;
+}
+
+.acount_follow {
+  display: flex;
+  margin-top: 12.8px;
+}
+
+.github_follow {
+  margin-right: 8px;
+}
+
+.twitter_follow {
+  margin-right: auto;
+}
+
+.article_toc_container {
+  background-color: #FFFFFF;
+  grid-column: 1;
+  grid-row: 3;
+  padding: 20px 20px 25px 20px;
+}
+
+.article_toc a {
+  text-decoration: none;
+  color: #6E7B85;
+}
+
+.article_toc a strong {
+  text-decoration: none;
+  color: #000000d1;
+}
+
+.toc_first>li {
+  list-style-type: none;
+  margin: 8px 0;
+}
+
+.toc_first>li>a {
+  font-size: 14px;
+  display: block;
+  margin: 8px 0;
+}
+
+.toc_second li {
+  margin: 8px 0;
+}
+
+.toc_second li a {
+  color: #6E7B85;
+}
+
+/* related_articles */
+.related_contents {
+  background-color: #EDF2F7;
+  width: 100%;
+  height: 1238px;
+  margin-top: 60px;
+}
+
+
+.related_contents_space {
+  height: 3rem;
+  width: 1px;
+}
+
+.related_article {
+  width: 100%;
+  padding: 0 40px;
+}
+
+.related_contents h2 {
+  font-size: 27.2px;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.related_article_container {
+  height: 80%;
+  width: 100%;
+}
+
+.related_article_item_container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 106px;
+  padding: 15px 0;
+}
+
+.related_article_logo {
+  display: block;
+  background-color: #FFFFFF;
+  height: 76px;
+  width: 76px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.related_article_logo img {
+  height: 42px;
+  width: 42px;
+}
+
+.related_article_info {
+  width: calc(100% - 92px);
+  padding-left: 20px;
+  height: 76px;
+}
+
+.related_article_info a {
+  text-decoration: none;
+  color: inherit
+}
+
+.related_article_auther_icon {
+  height: 26px;
+  width: 26px;
+  border-radius: 30px;
+}
+
+.related_article_title {
+  max-height: 4.55em;
+}
+
+.related_article_title h2 {
+  font-size: 16.8px;
+}
+
+.related_article_details {
+  display: flex;
+  margin-top: 8px;
+}
+
+.related_article_sub_details {
+  display: flex;
+  align-items: center;
+}
+
+.related_article_sub_details a span {
+  font-size: 12.5px;
+  padding-left: 10px;
+}
+
+
+.zenn_tech_article_details a {
+  font-size: 12px;
+  color: #000000d1;
+}
+
+.zenn_tech_article_details span {
+  font-size: 12px;
+  color: #6E7B85;
+}
+
+.related_article_list {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.related_article_list span {
+  font-size: 11.5px;
+}
+
+.related_article_like {
+  display: flex;
+  padding-left: 5px;
+}
+
+.zenn_tech_author_container {
+  position: relative;
+  width: 26px;
+  height: 26px;
+}
+
+.zenn_tech_blog_icon img {
+  height: 26px;
+  width: 26px;
+  border-radius: 10px;
+}
+
+.zenn_tech_blog_auther_icon {
+  display: block;
+  position: absolute;
+  right: -7px;
+  bottom: -5px;
+}
+
+.zenn_tech_blog_auther_icon img {
+  height: 20px;
+  width: 20px;
+  border-radius: 30px;
+}
+
+/* footer */
+footer {
+  height: 574px;
+  padding-top: 48px;
+}
+
+.footer {
+  height: 526px;
+  width: 100%;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+.footer_container {
+  width: 100%;
+  height: 406px;
+}
+
+.zenn_app_footer {
+  width: 100%;
+}
+
+.zenn_app_footer p {
+  color: #93A5B1;
+  width: 100%;
+}
+
+.zenn_app_footer_introduction {
+  margin: 4.8px 0;
+}
+
+.footer_contents_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 38px;
+  width: 100%;
+  height: 313px;
+  margin-top: 38.5px;
+}
+
+.footer_contents_container nav {
+  height: 100%;
+  width: 100%;
+}
+
+.footer_contents_container h4 {
+  margin-bottom: 13px;
+}
+
+.footer_contents_container>nav>ul>li {
+  margin: 9.6px 0;
+  width: 100%;
+}
+
+.footer_copyright {
+  height: 84px;
+  border-top: 1px solid #E4EDF4;
+  padding: 24px 0 16px 0;
+  margin-top: 35.2px;
+}
+
+ul.footer_item {
+  list-style-type: none;
+}
+
+.footer_item a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+}
+
+.copyright_space {
+  display: block;
+  height: 54px;
+}
+
+.copyright_logo {
+  width: 115px;
+  height: 25px;
+  display: block;
+  margin: 0 auto;
+}
+
+.classmethod {
+  margin: 0 auto;
+  height: 25px;
+  width: 115px;
+}
+
+/* 最小画面 */
+@media screen and (max-width: 270px) {
+  html {
+    min-width: 270px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header_container {
+    padding: 0 14px;
+  }
+
+  .article_top {
+    padding: 0 14px;
+  }
+
+  .article_header {
+    padding: 0 14px;
+  }
+
+  .article_text_main_container {
+    padding: 40px 14px;
+  }
+
+  .related_article_item_container {
+    height: auto;
+  }
+
+  .related_article {
+    padding: 0 14px;
+  }
+
+  .related_contents h2 {
+    font-size: 25.5px;
+  }
+
+  .related_article_title h2 {
+    font-size: 15.75px;
+  }
+
+  .footer {
+    padding: 0 14px;
+  }
+}
+
+@media screen and (min-width: 575px) {
+  main {
+    display: grid;
+    height: auto;
+  }
+
+  .radius {
+    border-radius: 20px;
+  }
+
+  .article_contents_container {
+    padding: 0 25px;
+  }
+
+  .article_text_container {
+    height: 81%;
+  }
+
+  .article_text_main_container {
+    padding: 40px 25px;
+  }
+
+  .article_body {
+    max-height: 2300px;
+  }
+
+  .article_body hr {
+    margin: 20px 0;
+  }
+
+  .article_body_space {
+    height: 0.2%;
+  }
+
+  .github_edit {
+    height: 1.3%;
+    margin-top: 20px;
+  }
+
+  .zenn_acount_logo {
+    height: 80px;
+    width: 80px;
+  }
+
+  .discussion_container {
+    margin-top: 30px;
+  }
+
+  .main_article_container {
+    display: grid;
+    height: auto;
+  }
+
+  .related_contents {
+    height: 1324px;
+    margin-top: 0px;
+  }
+
+  .related_article_item_container {
+    height: 122px;
+  }
+
+  .related_article_logo {
+    height: 92px;
+    width: 92px;
+  }
+
+  .footer {
+    height: 574px;
+  }
+
+}
+
+@media screen and (min-width: 767px) {
+  .header_container {
+    padding: 0 40px;
+  }
+
+  .article_top {
+    padding: 0 40px;
+  }
+
+  .article_header h1 {
+    font-size: 31px;
+  }
+
+  .article_contents_container {
+    display: grid;
+    width: 100%;
+    padding: 0 40px;
+  }
+
+  .article_text_main_container {
+    padding: 40px 40px;
+  }
+
+  .article_body {
+    max-height: 2450px;
+  }
+
+  .related_article_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .related_article_item_container {
+    width: 47%;
+    padding: 15px 0;
+  }
+
+  .related_article_info {
+    width: calc(100% - 108px);
+  }
+
+  .related_article_title {
+    max-height: 76px;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .related_article_sub_details a {
+    overflow: hidden;
+  }
+
+  .related_contents {
+    height: 797px;
+  }
+
+  footer {
+    height: 402px;
+  }
+
+  .footer {
+    height: 354px;
+  }
+
+  .footer_container {
+    height: 234px;
+  }
+
+  .zenn_app_footer p {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  .footer_contents_container {
+    height: 140px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 30px;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .article_top {
+    display: none;
+  }
+
+  .article_sidebar_contents_container {
+    width: 300px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: auto;
+    grid-template-rows: 192px 163px 193px auto;
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .article_contents_container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .article_text_container {
+    width: calc(100% - 330px);
+  }
+
+  .related_article {
+    width: calc(100% - 140px);
+    margin: 0 70px;
+  }
+
+  footer {
+    height: 308px;
+  }
+
+  .footer {
+    height: 260px;
+  }
+
+  .footer_container {
+    height: 141px;
+    display: flex;
+  }
+
+  .zenn_app_footer {
+    width: 220px;
+  }
+
+  .footer_contents_container {
+    width: calc(100% - 220px);
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header_container {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+  .article_top {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+  .article_contents_container {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+  .related_article {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .footer {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .article_sub_container {
+    display: block;
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    left: -45px;
+  }
+
+  .article_contents_container {
+    position: relative;
+  }
+}
