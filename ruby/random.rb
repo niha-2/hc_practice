@@ -13,7 +13,7 @@ class Group
   def random_grouping
     number_of_people = [3, 4].sample
     @members.shuffle.each_slice(number_of_people) do |member|
-      p member
+      p member.sort
     end
   end
 end
