@@ -30,7 +30,7 @@
 [follows]
   *id {label: "bigint, not null"}
   user_id {label: "bigint, not null, FK(users)"}
-  follow_id {label: "bigint, not null, FK(users)"}
+  followed_id {label: "bigint, not null, FK(users)"}
   created_at { label: "datatime, not null"}
   updated_at { label: "datatime, not null"}
 
@@ -56,6 +56,22 @@
   created_at { label: "datatime, not null"}
   updated_at { label: "datatime, not null"}
 
+[likeNotices]
+  *id {label: "bigint, not null"}
+  user_id {label: "bigint, not null, FK(users)"}
+  message {label: "varchar, not null"}
+  like_id {label: "bigint, not null, FK(likes)"}
+  created_at { label: "datatime, not null"}
+  updated_at { label: "datatime, not null"}
+
+[followNotices]
+  *id {label: "bigint, not null"}
+  user_id {label: "bigint, not null, FK(users)"}
+  message {label: "varchar, not null"}
+  follow_id {label: "bigint, not null, FK(follows)"}
+  created_at { label: "datatime, not null"}
+  updated_at { label: "datatime, not null"}
+
 # Cardinality    Syntax
 # 0 or 1         ?
 # exactly 1      1
@@ -67,6 +83,10 @@ users 1--* `follows`
 users 1--* `retweets`
 users 1--* `bookmarks`
 users 1--* `messages`
+users 1--* `likeNotices`
+users 1--* `followNotices`
 tweets 1--* `likes`
 tweets 1--* `retweets`
 tweets 1--* `bookmarks`
+likes 1--1 `likeNotices`
+follows 1--1 `followNotices`
