@@ -3,30 +3,27 @@
 par = gets.chomp.split(',')
 score = gets.chomp.split(',')
 
-difference = []
-(0...score.size).each do |n|
-  difference << score[n].to_i - par[n].to_i
+difference = (0...score.size).to_a.map do |n|
+  score[n].to_i - par[n].to_i
 end
 
-judge = []
-
-(0...score.size).each do |n|
+judge = (0...score.size).to_a.map do |n|
   if difference[n] == -4
-    judge << 'コンドル'
+    'コンドル'
   elsif score[n].to_i == 1
-    judge << 'ホールインワン'
+    'ホールインワン'
   elsif difference[n] == -3
-    judge << 'アルバトロス'
+    'アルバトロス'
   elsif difference[n] == -2
-    judge << 'イーグル'
+    'イーグル'
   elsif difference[n] == -1
-    judge << 'バーディ'
+    'バーディ'
   elsif difference[n].zero?
-    judge << 'パー'
+    'パー'
   elsif difference[n] == 1
-    judge << 'ボギー'
+    'ボギー'
   elsif difference[n] >= 2
-    judge << "#{difference[n]}ボギー"
+    "#{difference[n]}ボギー"
   end
 end
 
