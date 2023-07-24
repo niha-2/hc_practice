@@ -14,6 +14,8 @@ class Suica
 
   # 任意の金額を支払う
   def pay(amount)
+    raise '残高が足りません' if amount > @balance
+
     @balance -= amount
   end
 
