@@ -1,8 +1,9 @@
 # Suiceクラス
 class Suica
+  DEFAULT_BALANCE = 500
   # 500円がデフォルトでチャージされる
   def initialize
-    @balance = 500
+    @balance = DEFAULT_BALANCE
   end
 
   # 100円以上の任意の金額をチャージする
